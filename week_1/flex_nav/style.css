@@ -1,0 +1,27 @@
+.nav{
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.nav-links{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-links > li{
+    list-style: none;
+    margin: 20px;
+}
+a{
+    text-decoration-line: none;
+    text-decoration-color: white;
+}

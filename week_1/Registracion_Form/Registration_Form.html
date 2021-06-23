@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="styling.css">
+        <form action="/process" method="post">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="name" placeholder="Your Name is..">
+
+                <label>Last Name</label>
+                <input type="text" name="name" placeholder="Your Last Name is ..">
+            </div>
+                <label>Email Adress:</label>
+                <input type="text" name="email" placeholder="Your email...">
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="Type in your Password..">
+
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Type in your Password again">
+            </div>
+            <div>
+                <label>Birthday</label>
+                <input type="date">
+            </div>
+                <label>Gender Identity</label>
+            <div>
+                <input type="radio" id="Male" name="Male" value="Male">
+                <label for="Male">Male</label>
+
+                <input type="radio" id="Female" name="Female"   value="Female">
+                <label for="Female">Female</label>
+
+                <input type="radio" name="Non-binary" id="Non-binary"   value="Non-binary">
+                <label for="Non-binary">Non-binary</label>
+
+                <input type="radio" name="not_to_answer" id="not_to_answer" value="not_to_answer">
+                <label for="not_to_answer">I prefer not to answer</label>
+            </div>
+            <div>
+                <p>A short description about myself: </p>
+                <textarea placeholder="Say something about yourself..."></textarea>
+            </div>
+            <div>
+                <label>Favorite Laguage</label>
+                <select>
+                    <option value="JavaScript">Python</option>
+                    <option value="Python">JavaScript</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="offers" id="offers" checked>
+                <label for="offers">I would like to recieve email offers!</label>
+            </div>
+            <input type="submit" value="Create Account">
+        </form>
+    </body>
+</html>
