@@ -1,0 +1,35 @@
+.row{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100vw;
+    padding: 10px;
+    margin: 10px;
+}
+.col{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+.col-2{
+    background-color: violet;
+    width: 30vw;
+}
+.col-3{
+    background-color: red;
+    width: 50vw;
+}
+
+.row > .col+.col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row > .col-2+.col-3{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
