@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width:  100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    margin-bottom:  10px;
+}
+.page_name{
+    color: white;
+    margin-left: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+
+}
+li, .nav, a{
+    padding: 0px 10px;
+    text-decoration-line: none;
+    list-style: none;
+}
+button{
+    margin-right: 100px;
+}
