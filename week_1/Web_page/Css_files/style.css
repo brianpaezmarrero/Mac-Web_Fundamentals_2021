@@ -1,31 +1,92 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body{
+    margin: 0px
 }
-.header{
-    width:  100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    background-color: black;
-    margin-bottom:  10px;
+.container{
+    width: 1200px;
+    height: 300px;
+    background-color: gray;
 }
-.page_name{
-    color: white;
-    margin-left: 100px;
-}
+
+.main_body,
 .nav{
     display: flex;
-    justify-content: flex-start;
-    align-items: center; 
-
 }
-li, .nav, a{
-    padding: 0px 10px;
-    text-decoration-line: none;
+.nav{
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+li > a, h1{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+li{
     list-style: none;
 }
-button{
-    margin-right: 100px;
+.nav,
+.main_body{
+    padding-inline-start: 100px;
+    padding-inline-end: 100px;
 }
+.p_body{
+    background-color: aqua;
+    margin:  20px;
+    padding: 20px 0px 20px 20px;
+    width: 60%;
+    min-height: auto;
+}
+.profile_pic{
+    width: 80px;
+    margin: 10px 10px 0px;
+    padding: 10px 10px 0px;
+}
+.map_pin,
+.config_icon{
+    width: 15px;
+    margin-right: 5px;
+}
+tr :nth-of-type(1n+2){
+    border-left: 2px solid black;
+}
+h2,
+.pb_fact,
+.user_name{
+    margin-top: 0px;
+}
+
+.nav-links,
+.pb_config,
+.pb_location{
+    display: flex;
+    align-items: center;
+}
+.pb_config,
+.pb_location{
+    margin-bottom:  15px;
+}
+.c_request{
+    background-color: aqua;
+    width: 40%;
+    height: 5%;
+    margin:  20px;
+
+}
+.c_r_header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.c_r_add,
+.c_r_add2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
