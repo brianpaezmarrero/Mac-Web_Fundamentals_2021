@@ -62,6 +62,7 @@ body {
     margin-right: 20px;
 }
 
+<<<<<<< HEAD
 .col-1 {
     flex: 1;
 }
@@ -89,6 +90,12 @@ body {
 
 .card-body {
     padding: 20px;
+=======
+.map_pin,
+.config_icon{
+    width: 15px;
+    margin-right: 5px;
+>>>>>>> 232179705a2c7bc754a7a8b1218ef5ca83e45609
 }
 
 .card-body h1, 
