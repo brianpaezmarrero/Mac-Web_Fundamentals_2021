@@ -1,30 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+}
 h1{
     background-color: black;
     color: white;
     text-align: left;
     text-decoration-style: double;
     font-style: oblique;
-    font-size: 130px;
+    font-size: 60px;
 }
 
 span{
     color: turquoise;
 }
 
-p{
+h2{
     background-color: rebeccapurple;
     color: whitesmoke;
     text-align: center;
     font-style: oblique;
-    font-size: 80px;
+    font-size: 40px;
     text-decoration-style: wavy;
 }
 
-h2{
+h3{
     background-color: teal;
     font-style: oblique;
-    font-size: 40px;
+    font-size: 20px;
     text-align: right;
     color: plum;
     text-decoration-line: underline;
+}
+h1, h2, h3{
+    margin: 10px;
+    padding: 5px;
 }

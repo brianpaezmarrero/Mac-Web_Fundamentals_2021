@@ -1,10 +1,7 @@
-form{
-    min-width: 100px;
-    padding: 20px;
-    background-color: gray;
+*{
+    padding: 0;
+    margin: 0;
 }
-
-
 
 .search{
     color: aqua;
@@ -16,7 +13,7 @@ form{
     display: inline-block;
 }
 
-#add{
+.add{
     color: greenyellow;
     border: 1px solid greenyellow;
     border-radius: 50%;
@@ -27,7 +24,7 @@ form{
 }
 
 input{
-    color: white;
+    color: dodgerblue;
     border: 1px solid black;
     box-shadow: 2px 1px 1px black;
     margin: 10px;
