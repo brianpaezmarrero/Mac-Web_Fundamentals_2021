@@ -18,7 +18,7 @@
                 <input type="search">
             </div>
             <div class="login">
-                <button>Log In</button>
+                <button onclick="logOut(this)">Log In</button>
             </div>
         </div>
         <div class="main_body">
@@ -31,7 +31,7 @@
                         <h2>Ninja</h2>
                         <em>noun</em>
                         <p>Plural: ninjas</p>
-                        <button class="btn_likes">Likes</button>
+                        <button onclick="likesCounter(this)" id="btn_likes">Likes 13</button>
                     </div>
                     <div class="box_text">
                         <p>A practitioner skilled in the <br>
@@ -43,7 +43,7 @@
                         <h2>Ninja</h2>
                         <em>noun</em>
                         <p>Plural: ninjas</p>
-                        <button class="btn_likes">Likes</button>
+                        <button onclick="likesCounter2(this)" id="btn_likes-2">Likes 37</button>
                     </div>
                     <div class="box_text">
                         <p>A practitioner skilled in the <br>
@@ -59,11 +59,12 @@
                         defined by <span>YOU</span></h3>
                     </div>
                     <div class="box_text">
-                        <button>Add Definition</button>
+                        <button onclick="hide(this)">Add Definition</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
