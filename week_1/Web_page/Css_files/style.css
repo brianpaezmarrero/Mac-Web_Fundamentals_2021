@@ -61,17 +61,9 @@ body {
     flex: 2;
     margin-right: 20px;
 }
-<<<<<<< HEAD
-.c_r_icons,
-.map_pin,
-.config_icon{
-    width: 15px;
-    margin-right: 5px;
-=======
 
 .col-1 {
     flex: 1;
->>>>>>> 8238cef07f4790b7f257d2d22390388bc97d3021
 }
 
 .card {
