@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+.box_btn,
+.container_body,
+.card_avatar{
+    display: flex;
+}
+.container h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.col1{
+    flex: 1;
+}
+.col2{
+    flex: 2;
+}
+.card{
+    background-color: gray;
+    padding: 10px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10%;
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+}
+.card_avatar > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+.card_avatar{
+    justify-content: center;
+    align-items: center;
+}
+.card >a,
+.card > h3{
+    margin: 20px 10px;
+}
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* BOX */
+.box3,
+.box2,
+.box1{
+    width: 95%;
+    background-color: aqua;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.container_body{
+    justify-content: space-between;
+}
+.box_btn{
+    justify-content: space-around;
+    align-items: center;
+}
+.box_description{
+    text-align: center;
+    margin: 20px;
+}
+span{
+    text-decoration: underline;
+    color: dodgerblue;
+}
